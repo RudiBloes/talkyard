@@ -1,5 +1,8 @@
 import sbt._
 
+// Find dependencies to upgrade: In the sbt shell, run:  dependencyUpdates
+// Show deps tree: Run:  dependencyTree
+
 // The objects here are made available in all build.sbt files,
 // that is,  <root>/.build.sbt  and  modules/{ty-core,ty-dao-rdb}/build.sbt.
 //
